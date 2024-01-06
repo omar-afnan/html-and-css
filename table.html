@@ -8,13 +8,21 @@
         table {
             border-collapse: collapse;
             width: 100%;
-            border: 2px solid black; /* Thick border for the table */
+            border: 2px solid black; 
         }
 
         th, td {
-            border: 1px solid black; /* Thin border for cells */
+            border: 1px solid black;
             padding: 8px;
             text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2; /* Set background color for table header */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Set background color for even rows */
         }
     </style>
 </head>
@@ -36,6 +44,38 @@
         <td width="200px">Mystery</td>
         <td width="200px">2001</td>
         <td width="200px">$15.99</td>
+      </tr>
+
+      <tr>
+        <td width="200px">To Kill a Mockingbird</td>
+        <td width="200px">Harper Lee</td>
+        <td width="200px">Classic</td>
+        <td width="200px">1960</td>
+        <td width="200px">$12.50</td>
+      </tr>
+
+      <tr>
+        <td width="200px">The Great Gatsby</td>
+        <td width="200px">F. Scott Fitzgerald</td>
+        <td width="200px">Historical Fiction</td>
+        <td width="200px">1925</td>
+        <td width="200px">$14.95</td>
+      </tr>
+
+      <tr>
+        <td width="200px">1984</td>
+        <td width="200px">George Orwell</td>
+        <td width="200px">Dystopian</td>
+        <td width="200px">1949</td>
+        <td width="200px">$10.99</td>
+      </tr>
+
+      <tr>
+        <td width="200px">The Hitchhiker's Guide to the Galaxy</td>
+        <td width="200px">Douglas Adams</td>
+        <td width="200px">Science Fiction</td>
+        <td width="200px">1979</td>
+        <td width="200px">$9.75</td>
       </tr>
     </table>
 </body>
